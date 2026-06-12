@@ -39,6 +39,7 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
         <a href="#now">Now</a>
         <a href="#contact">Contact</a>
         <a class="nav__cta" href="https://github.com/jem-cell" rel="me noopener">GitHub</a>
@@ -59,15 +60,15 @@
           Aerospace engineer, building where <em>AI</em> meets <em>aviation</em>.
         </h1>
         <p class="hero__lede">
-          I'm Jem. I trained as an aerospace engineer and now write software full-time. The work I do sits at the join between machine learning, geospatial systems, and the operations that move physical things around.
+          I'm Jem — an aerospace engineer working as Operations Manager at a drone startup, building the software that runs the rest of the business. Day job is photogrammetry, LiDAR and flight ops; the rest of the time I build tools, write code, and fly gliders.
         </p>
         <div class="hero__ctas">
           <a class="btn btn--primary" href="mailto:jkaraceylan@gmail.com">Email Jem</a>
         </div>
         <dl class="meta">
-          <div><dt>Based</dt><dd>Farnham, England</dd></div>
-          <div><dt>Training</dt><dd>BSc Aerospace Engineering</dd></div>
-          <div><dt>Currently</dt><dd>Building software in AI &amp; aviation</dd></div>
+          <div><dt>Based</dt><dd>Farnham, Surrey</dd></div>
+          <div><dt>Training</dt><dd>BSc Aerospace Engineering, 2.1 — Swansea</dd></div>
+          <div><dt>Currently</dt><dd>Operations Manager, Survey Air</dd></div>
         </dl>
       </div>
     </section>
@@ -88,12 +89,61 @@
           <article class="card">
             <p class="card__num">02</p>
             <h3 class="card__title">Aviation &amp; aerospace</h3>
-            <p class="card__body">The degree, the instinct for the domain, and an ongoing interest in how software is changing flight ops, air traffic and unmanned systems.</p>
+            <p class="card__body">BSc in aerospace engineering, a dissertation on F1 wing-endplate aerodynamics, a GVC drone rating, and a civilian glider pilot ticket. Currently running flight ops for a drone startup; the rest of the time I'm rebuilding my own tools to learn what doesn't scale.</p>
           </article>
           <article class="card">
             <p class="card__num">03</p>
             <h3 class="card__title">IT systems &amp; integration</h3>
             <p class="card__body">The glue work that doesn't show up in a portfolio but decides whether anything ships — auth, data flow, deployment, monitoring, keeping the lights on at 2am.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="section" id="stack" aria-labelledby="stack-h">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="section__kicker">Stack</p>
+          <h2 class="section__title" id="stack-h">Things I work with.</h2>
+          <p class="section__sub">The tools that turn up in my work most often. Not exhaustive — just the ones I'd reach for first.</p>
+        </header>
+        <div class="grid grid--3">
+          <article class="card">
+            <p class="card__num">A</p>
+            <h3 class="card__title">Engineering &amp; analysis</h3>
+            <p class="card__body">From the degree and the dissertation, and the analysis I do for Survey Air's survey outputs.</p>
+            <ul class="stack-list">
+              <li>SolidWorks, AutoCAD</li>
+              <li>MATLAB, Python</li>
+              <li>FEA, CFD</li>
+              <li>Wind-tunnel testing</li>
+              <li>3D printing, CAD/CAM</li>
+            </ul>
+          </article>
+          <article class="card">
+            <p class="card__num">B</p>
+            <h3 class="card__title">Web &amp; software</h3>
+            <p class="card__body">What I use to build the internal tools, side projects and dashboards. TypeScript is the default; vanilla when it's enough.</p>
+            <ul class="stack-list">
+              <li>TypeScript, JavaScript, Python</li>
+              <li>Next.js, React, Vite</li>
+              <li>Three.js, Leaflet, OpenStreetMap</li>
+              <li>Node, REST APIs, OAuth</li>
+              <li>Google Cloud (Gemini, Fit)</li>
+            </ul>
+          </article>
+          <article class="card">
+            <p class="card__num">C</p>
+            <h3 class="card__title">UAV &amp; operations</h3>
+            <p class="card__body">What I use at Survey Air and in the air. Photogrammetry and LiDAR pipelines are the bulk of it.</p>
+            <ul class="stack-list">
+              <li>Drone ops — GVC (CAA)</li>
+              <li>Photogrammetry, LiDAR processing</li>
+              <li>Mission planning, airspace &amp; compliance</li>
+              <li>Batch pipeline automation</li>
+              <li>Glider pilot — ~30 hours (civilian)</li>
+            </ul>
           </article>
         </div>
       </div>
@@ -109,6 +159,24 @@
         </header>
 
         <ol class="projects">
+          <li class="project">
+            <div class="project__head">
+              <p class="project__meta"><span class="tag">Survey Air · drone ops</span> <span class="tag tag--muted">2025–present</span></p>
+              <h3 class="project__title">Survey Air — internal tooling</h3>
+            </div>
+            <p class="project__body">Dashboards, AI agents and batch-processing scripts for a three-person drone startup. Built to cut the manual time on photogrammetry and LiDAR pipelines, centralise project reporting, and route routine client interactions through an automated agent.</p>
+            <span class="project__link project__link--private">Private — employed work, not on GitHub.</span>
+          </li>
+
+          <li class="project">
+            <div class="project__head">
+              <p class="project__meta"><span class="tag">Aerodynamics · dissertation</span> <span class="tag tag--muted">2019</span></p>
+              <h3 class="project__title">F1 wing-endplate aerodynamics</h3>
+            </div>
+            <p class="project__body">Self-defined undergraduate dissertation. Designed two wing-endplate specifications against FIA Formula One regulations and ran them through computational and wind-tunnel analysis to produce a full aerodynamic comparison. Available on request.</p>
+            <span class="project__link project__link--private">Dissertation, Swansea University — available on request.</span>
+          </li>
+
           <li class="project">
             <div class="project__head">
               <p class="project__meta"><span class="tag">Next.js · TypeScript</span> <span class="tag tag--muted">2026</span></p>
@@ -135,15 +203,6 @@
             <p class="project__body">Image-metadata visualizer — drop a folder of photos and it reads the EXIF/GPS data and plots them on a Leaflet map. Small, fast, useful. The companion piece to 3D Georeference for the 2D case.</p>
             <a class="project__link" href="https://github.com/jem-cell/georeference" rel="noopener">github.com/jem-cell/georeference →</a>
           </li>
-
-          <li class="project">
-            <div class="project__head">
-              <p class="project__meta"><span class="tag">Vite · React</span> <span class="tag tag--muted">2026</span></p>
-              <h3 class="project__title">Route Planning</h3>
-            </div>
-            <p class="project__body">A small Vite + React app for working out multi-stop routes. Mostly an excuse to compare bundler behaviour and ship something that runs in the browser without a backend.</p>
-            <a class="project__link" href="https://github.com/jem-cell/route-planning" rel="noopener">github.com/jem-cell/route-planning →</a>
-          </li>
         </ol>
       </div>
     </section>
@@ -159,15 +218,15 @@
         <ul class="now">
           <li>
             <p class="now__label">Building</p>
-            <p class="now__text">Dashboard work in JavaScript and the next iteration of the Health Optimizer app. Quietly rebuilding my own tools to learn what doesn't scale.</p>
+            <p class="now__text">Internal tooling at Survey Air — photogrammetry/LiDAR pipeline automation, project dashboards, an AI agent for routine client work. Most of this lives behind a login.</p>
           </li>
           <li>
-            <p class="now__label">Reading</p>
-            <p class="now__text">Working through the bits of aviation software that are still stuck in 2008, and trying to figure out which of them an indie developer can actually move.</p>
+            <p class="now__label">Flying</p>
+            <p class="now__text">GVC drone ops during the week, gliders at the weekend. Currently working through the bits of unmanned airspace software that still feel stuck in 2008.</p>
           </li>
           <li>
             <p class="now__label">Open to</p>
-            <p class="now__text">Product / software roles — full-time or contract — where the work touches AI, aviation, geospatial or the systems that hold them together. Remote-first, UK-friendly.</p>
+            <p class="now__text">Conversations about software-leaning operations roles, or contract work where the brief is AI + aviation + geospatial. Remote-friendly, UK-based.</p>
           </li>
         </ul>
       </div>
@@ -185,7 +244,7 @@
         <ul class="contact__list">
           <li><span>Email</span><a href="mailto:jkaraceylan@gmail.com">jkaraceylan@gmail.com</a></li>
           <li><span>GitHub</span><a href="https://github.com/jem-cell" rel="noopener">github.com/jem-cell</a></li>
-          <li><span>Location</span><span>Farnham, England — open to remote</span></li>
+          <li><span>Location</span><span>Farnham, Surrey — open to remote</span></li>
         </ul>
       </div>
     </section>
