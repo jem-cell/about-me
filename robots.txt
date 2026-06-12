@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://jem-cell.github.io/about-me/sitemap.xml
